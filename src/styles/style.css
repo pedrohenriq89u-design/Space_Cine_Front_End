@@ -80,3 +80,60 @@ main p{
 .btnSecundary{
     border: 1px solid var(--color-white);
 }
+
+/* Section showing */
+.section-showing{
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    align-items: center;
+    padding: 60px 0;
+    background-color: var(--color-dark);
+    }
+.showing-content, .showing-container-movies{
+    width: 1072px;
+}
+.showing-content span{
+    color: var(--color-purple300);
+    font-family: var(--font-title);
+    font-size: 18px;
+}
+.showing-content h2{
+    color: var(--color-white);
+    font-family: var(--font-title);
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+.showing-container-movies{
+display: flex;
+gap: 18px;
+}
+
+.card-movies h3{
+color: var(--color-white);
+font-family: var(--font-title);
+font-weight: 400;
+font-size: 18px;
+}
+.movie-details{
+    display: flex;
+    justify-content: space-between;
+}
+.movie-details > span{
+    font-family: var(--font-title);
+    font-size: 12px;
+    color: var(--color-purple300);
+}
+.movie-avaliation{
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+.movie-avaliation span{
+    color: var(--color-yellow);
+    font-size: 12px;
+    font-family: var(--font-title);
+    font-weight: 400;
+}
